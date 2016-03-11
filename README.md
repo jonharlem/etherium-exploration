@@ -8,6 +8,10 @@ Etherium borrows the concept of distributed consensus and cryptographic proof th
 
 The Ethereum team has put in a lot of time and thought to make it possible for any developer to write and distribute decentalized applications.
 
+###Smart Contracts
+
+**Smart contracts** are account holding objects on the ethereum blockchain. They can contain functions, interact with other contracts, make decisions, store data, and send ether to others. Ethereum contracts are defined by their creators, but the execution of their services are controlled by the network itself. As long as the network exists, the contracts will be executable unless programmed to self distruct. 
+
 ###Resources & Threads
 ---
 **Videos**
