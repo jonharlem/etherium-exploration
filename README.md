@@ -20,7 +20,7 @@ The Ethereum team has put in a lot of time and thought to make it possible for a
 
 **How-To**
 
-- [Hello Worl for Etherum](https://www.ethereum.org/greeter)
+- [Hello World for Etherum](https://www.ethereum.org/greeter)
 
 **Forums**
 
