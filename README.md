@@ -21,7 +21,7 @@ The possibilities are extremely broad and only beginning to be explored.
 [Solidity](https://github.com/ethereum/wiki/wiki/The-Solidity-Programming-Language) is an object-oriented language designed specifically for writing contracts in Ethereum. To be more specific, Solidity is often referred to as the first *contract-oriented* programming language. It is designed to help express agreements that encode ideas and relationships: ownership, identity, protections, etc.
 
 **Example Storage:**
-```
+```solidity
 contract SimpleStorage {
     uint storedData;
     function set(uint x) {
@@ -32,6 +32,8 @@ contract SimpleStorage {
     }
 }
 ```
+
+`uint storedData` declares a state variable called storedData of an uint or unsigned integer of 256 bits. It is easy to think of this as a single slot in a database that can be queried and altered by calling functions of the code owning the contract. In this case the functions 'set' and 'get' can be used to modify or retrieve the value of the variable. 
 
 ####Vocab for Contracts
 - Contract:
