@@ -22,8 +22,10 @@ The possibilities are extremely broad and only beginning to be explored.
 
 ####Vocab for Contracts
 - Contract:
+	
 	> Collection of code (its functions)
 - State:
+	
 	> A contracts data that resides at a specific address on the Ethereum blockchain
 
 ###Resources & Threads
