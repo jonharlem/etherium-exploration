@@ -4,6 +4,18 @@ Etherium is an open source platform to build and distribute decentralized applic
 
 Etherium borrows the concept of distributed consensus and cryptographic proof that makes Bitcoin so effective. The foundational building block in Etherium is a contract or program that lives on the distributed Ethereum network and follows a series of defined steps when it receives a transaction. Contracts can store data, send and receive transactions, and interact with other contracts holding data. The contacts themselves are maintained by the network, without any central ownership or control. The contracts are 'powered' by **Ether**. By its very design, Ethereum, is resistant to tampering or fraud.
 
+###Accounts
+(working on it...)
+
+###Transactions
+(working on it...)
+
+###Gas
+(working on it...)
+
+###Storage
+(working on it...)
+
 ###Developing on Ethereum
 
 The Ethereum team has put in a lot of time and thought to make it possible for any developer to write and distribute decentralized applications.
