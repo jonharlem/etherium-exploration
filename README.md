@@ -33,7 +33,9 @@ contract SimpleStorage {
 }
 ```
 
-`uint storedData` declares a state variable called storedData of an uint or unsigned integer of 256 bits. It is easy to think of this as a single slot in a database that can be queried and altered by calling functions of the code owning the contract. In this case the functions 'set' and 'get' can be used to modify or retrieve the value of the variable. 
+`uint storedData` declares a state variable called storedData of an uint or unsigned integer of 256 bits. It is easy to think of this as a single slot in a database that can be queried and altered by calling functions of the code owning the contract. In this case the functions 'set' and 'get' can be used to modify or retrieve the value of the variable.
+
+You do not need the prefix `this.` as in Javascript.
 
 ####Vocab for Contracts
 - Contract:
@@ -72,6 +74,11 @@ While ethereum is 'Turing-complete', there are still a few things that you can't
 ##Blockchain
 
 Information about blockchain technology in general.
+
+###What is a blockchain?
+Besides being a trending word/technology for 2016, a blockchain is a globally shared, transactional database. This means that everyone can read entries into the database by participating in the network. If you want to change something in the database you have to create a transaction which has to be accepted by all other nodes on the network. While your transaction is being applied to the network, no other transaction can alter it. 
+
+The most famous blockchain is BitCoin. BitCoin is a ledger that lists the balances of all accounts in the electronic currency. If there is a transfer from one account to another, the transactional nature of the database will ensure that the amount is subtracted from one account and added to another account. If the transaction is not possible, the source account will not be modified. Every transaction is **cryptographically signed** by the sender/creator. This makes it incredibly hard to modify the database. In terms of BitCoin, this means that only the person holding a key to an account is allowed to modify that account.
 
 ###Merkle Tree
 
